@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ekf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf">
+				<Option output="E:/ekf/cmake-build-release/libekf.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/eign/eigen/Eigen"/>
+					<Add directory="E:/ekf"/>
+					<Add directory="E:/ekf/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 ekf"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf/fast">
+				<Option output="E:/ekf/cmake-build-release/libekf.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/eign/eigen/Eigen"/>
+					<Add directory="E:/ekf"/>
+					<Add directory="E:/ekf/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 ekf/fast"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf1">
+				<Option output="E:/ekf/cmake-build-release/ekf1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/eign/eigen/Eigen"/>
+					<Add directory="E:/ekf"/>
+					<Add directory="E:/ekf/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 ekf1"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ekf1/fast">
+				<Option output="E:/ekf/cmake-build-release/ekf1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/eign/eigen/Eigen"/>
+					<Add directory="E:/ekf"/>
+					<Add directory="E:/ekf/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files\vs_mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 ekf1/fast"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/ekf/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/vs_mingw/bin/mingw32-make.exe -f &quot;E:/ekf/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/ekf/include/DataPackage.h">
+			<Option target="ekf"/>
+		</Unit>
+		<Unit filename="E:/ekf/src/ExtendedKalmanFilter.cpp">
+			<Option target="ekf"/>
+		</Unit>
+		<Unit filename="E:/ekf/src/GetData.cpp">
+			<Option target="ekf"/>
+		</Unit>
+		<Unit filename="E:/ekf/src/SensorFusion.cpp">
+			<Option target="ekf"/>
+		</Unit>
+		<Unit filename="E:/ekf/test_main/main.cpp">
+			<Option target="ekf1"/>
+		</Unit>
+		<Unit filename="E:/ekf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
