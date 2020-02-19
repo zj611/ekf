@@ -1,3 +1,0 @@
-"D:\CLion_install\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\ekf1.dir/objects.a
-D:\PROGRA~1\vs_mingw\bin\ar.exe cr CMakeFiles\ekf1.dir/objects.a @CMakeFiles\ekf1.dir\objects1.rsp
-D:\PROGRA~1\vs_mingw\bin\G__~1.EXE -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\ekf1.dir/objects.a -Wl,--no-whole-archive  -o ekf1.exe -Wl,--out-implib,libekf1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ekf1.dir\linklibs.rsp
